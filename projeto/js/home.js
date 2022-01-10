@@ -1380,7 +1380,6 @@ function touchend(evt) {
  //pwa sw
 //prompt de installation
 if('serviceWorker' in navigator){
-  try{
     navigator.serviceWorker.register('./sw.js')
     .then((reg) => {
       console.log('serviceWorker registrado ' + serviceWorker);
@@ -1388,7 +1387,6 @@ if('serviceWorker' in navigator){
       console.log('falha! // ', e.message)
     })
   }
-}
 /*
 var myPrompt;
 const pwaAlert = document.querySelector('#soulTaken');
