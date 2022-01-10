@@ -1389,6 +1389,7 @@ if('serviceWorker' in navigator){
     })
   }
 }
+/*
 var myPrompt;
 const pwaAlert = document.querySelector('#soulTaken');
 const btnPWA = document.querySelector('#soul');
@@ -1412,5 +1413,5 @@ btnPWA.addEventListener('click', () => {
     }
   });
 });
-
+*/
   
