@@ -18,7 +18,7 @@ var allvar = [['tsuki ga', 'kimi to boku', 'the tutorial','fukushuu','black kano
   }
   var di2 = [];
    var img2 = [];
-   var caminho2 = './archive/posters/'
+   var caminho2 = './posters/'
    var capa2 = [null]
    var at2 = [];
    var at2 = [];
@@ -754,7 +754,7 @@ function headandheart() {
  let tagmain = window.document.createElement('main');
  tagmain.setAttribute('id','neck');
  
- tagmain.style.background=`url(./archive/posters/${allvar[3][x]})`;
+ tagmain.style.background=`url(./posters/${allvar[3][x]})`;
  tagmain.style.backgroundSize="100%";
  tagmain.style.backgroundRepeat="no-repeat";
  tagmain.setAttribute('class','titulo mgtop2');
@@ -768,7 +768,7 @@ function headandheart() {
  fontlink.setAttribute('class','nound');
  let div1 = window.document.createElement('div');
  
- var img5 = './archive/posters/' + allvar[3][x];
+ var img5 = './posters/' + allvar[3][x];
  lugarposter.style.backgroundImage=`url(${img5})`;
  lugarposter.style.backgroundSize="100% 100%";
  lugarposter.setAttribute('class','imgtam');
