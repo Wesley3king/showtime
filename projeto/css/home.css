@@ -677,6 +677,9 @@ margin-top: 10px;
        font-size: 26px;
        text-indent: 12px;
      }
+     #read{
+       margin-top: 20px;
+     }
 @keyframes trocar1 {
   0% {
     opacity: 1;
@@ -693,9 +696,7 @@ margin-top: 10px;
     opacity: 1;
   }
 }
-#read{
-  margin-top: -156px;
-}
+
 
 
   }
