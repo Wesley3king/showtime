@@ -661,8 +661,8 @@ margin-top: 10px;
      }*/
      #principal{
       padding: 8px;
-      width: 330px;
-      height: 194px;
+      width: 420px;
+      height: 220px;
       text-align: left;
      }
      .imgr{
@@ -674,27 +674,23 @@ margin-top: 10px;
      }
      .tituloresponsivo{
        display: inline-block;
-       font-size: 22px;
+       font-size: 26px;
        text-indent: 12px;
      }
 @keyframes trocar1 {
   0% {
     opacity: 1;
-    margin-left: 32.5%;
   }
   100% {
     opacity: 0;
-    margin-left: 50.5%;
   }
 }
 @keyframes trocar2 {
   0% {
-    margin-left: 0%;
     opacity: 0;
   }
   100% {
     opacity: 1;
-    margin-left:32.1%;
   }
 }
 #read{
