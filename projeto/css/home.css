@@ -1,4 +1,4 @@
-@charset:"UTF-8";
+@charset: "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@579&family=Dancing+Script:wght@700&family=Heebo&display=swap');
 
@@ -133,6 +133,11 @@ margin-top: 10px;
   margin: auto;
 }
  .linem:active{
+        transition-duration: 1s;
+        background-color: red;
+        /*transform: scale(1.5);*/
+      }
+      .linem:houver{
         transition-duration: 1s;
         background-color: red;
         /*transform: scale(1.5);*/
