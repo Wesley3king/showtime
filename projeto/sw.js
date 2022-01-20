@@ -1,4 +1,4 @@
-const cacheName = 'v2';
+const cacheName = 'v3';
 const resourcesToPrecache = ['/','./index.html','./css/home.css','./manifest.json','./192x192.png','./512x512.png','./cloud.png','./Java.png','./internet.png'];
 
 self.addEventListener('install', (event) => {
@@ -22,5 +22,5 @@ this.addEventListener('activate', event => {
 });*/
 
 self.addEventListener('fetch', (event) => {
-  event.respondWith(caches.match(event.request)).then(cacheResponse => (cacheResponse || fetch(event.request)))
+  event.respondWith(caches.match(event.request).then(cacheResponse => (cacheResponse || fetch(event.request))))
 });
